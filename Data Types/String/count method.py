@@ -1,6 +1,6 @@
 # Some methods of string
 
-#1.count(sunstring,start,end) : returns number of occurences of substring in the given string
+#1.count(substring,start,end) : returns number of occurences of substring in the given string
 string=input("Enter some string:")
 sub_string=input('Enter substring:')
 
