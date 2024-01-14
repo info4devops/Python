@@ -1,7 +1,16 @@
-a=5
-b=7
-Or = (a<b) or (a>b)
-And =(a<b) and (a>b)
+"""This about shift operators  """
 
-print(f'Result of Or:{Or}')
-print(f'Result of And:{And}')
+n=int(input('Enter any number to perform shift:'))
+x= int(input('Number shift by: '))
+
+#left shift
+# x<<n is equal to x*[2]^n
+
+l_result = n<<x
+print(f'Result of number:{n}, after left shift by:{x} is:{l_result}')
+
+# Right Shift
+# x>>n is equal to x/[2]^n
+
+r_result = n>>x
+print(f'Result of number:{n}, after right shift by:{x} is:{r_result}')
