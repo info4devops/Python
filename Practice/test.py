@@ -1,8 +1,7 @@
-a=int(input('a:'))
-b=int(input('b:'))
-if a>b:
-  print(f'{a}is greater than {b}')
-else:
-  print(f'{b} is greater than {a}')
-  
-  
+a=5
+b=7
+Or = (a<b) or (a>b)
+And =(a<b) and (a>b)
+
+print(f'Result of Or:{Or}')
+print(f'Result of And:{And}')
