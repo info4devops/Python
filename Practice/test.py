@@ -1,4 +1,4 @@
-"""This about shift operators  """
+#This about shift operators
 
 n=int(input('Enter any number to perform shift:'))
 x= int(input('Number shift by: '))
