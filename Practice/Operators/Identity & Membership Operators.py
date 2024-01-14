@@ -9,5 +9,5 @@ print()
 # Membership Operator: checks if an argument is present in sequence or not
 string=input('Enter any string:')
 sub_string=input('Enter substring to find:')
-print(f'is {sub_string} present in {string}?: {sub_string in string}')
-print(f'is {sub_string} present in {string}?: {sub_string not in string}')
+print(f'"{sub_string}" is present in "{string}"?: {sub_string in string}')
+print(f'"{sub_string}" is not present in "{string}"?: {sub_string not in string}')

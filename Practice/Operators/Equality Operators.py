@@ -1,6 +1,7 @@
 # Equality Operators
 a=input('Enter a value:')
 b=input('Enter b value:')
+
 #type casting
 a=int(a)
 b=int(b)
