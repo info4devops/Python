@@ -6,9 +6,13 @@ list_of_evens =[]
 sum_of_odds = 0
 sum_of_evens = 0
 
+
 for x in range(n+1):
+  if x == 0:
+    print(f'{x} is a special Number')
+  
   # Find out Odd Number
-  if (x%2 !=0):
+  elif (x%2 !=0):
     list_of_odds.append(x)
     sum_of_odds = sum_of_odds+x
   
@@ -16,6 +20,7 @@ for x in range(n+1):
   else:
     list_of_evens.append(x)
     sum_of_evens = sum_of_evens+x
+
     
 print(f'List of Even Numbers:{list_of_evens}')
 print(f'List of Odd Numbers:{list_of_odds}')
@@ -26,4 +31,5 @@ print()
 print(f'The sum of Odd numbers present in 1st {n} Numbers is:{sum_of_odds}')
 print(f'The sum of Even numbers present in 1st {n} Numbers is:{sum_of_evens}')
 print()
+
 
