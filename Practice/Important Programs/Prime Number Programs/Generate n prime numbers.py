@@ -1,5 +1,5 @@
 # Generating first n prime numbers
-n=int(input('Enter Some Random numbers:'))
+n=int(input('How Many Prime Number You Want to Generate:'))
 count=0
 n1=2
 while True:
