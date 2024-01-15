@@ -7,8 +7,8 @@ print('\n')
 
 #printing each character present in sequence index wise
 s=input('Enter any String:')
-i=0
+i=0 # represents index
 for x in s:
     print(f'The Character present at {i} index is:{x} ')
-    i=i+1
+    i=i+1 # increment index value
 
