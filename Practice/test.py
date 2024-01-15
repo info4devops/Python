@@ -1,7 +1,7 @@
-from sys import argv
-print(f'The number of command line arguments:{len(argv)}')
-print(f'The List of command line argument:{argv}')
+name = input('Enter Name:')
+if name == 'Python':
+  print(f'Hello,{name}')
+else:
+  print('Invalid Name')
+print('Please Try Again')
 
-for x in argv:
-  print(x)
-  
