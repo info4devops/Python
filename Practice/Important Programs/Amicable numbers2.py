@@ -2,7 +2,7 @@
 # example: 220 &284
 
 # Get the upper limit from user
-limit = int(input("Enter the upper limit for amicable numbers: "))
+limit = int(input("Enter the upper limit to print amicable numbers: "))
 
 # This loop will check for amicable numbers
 for a in range(1, limit + 1):

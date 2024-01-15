@@ -1,5 +1,3 @@
-n=int(input('Enter any number: '))
-if (n%2==0):
-  print(f'{n} is an Even Number')
-else:
-  print(f'{n} is an Odd Number')
+n=153
+#n=n//10
+print(n//10)
