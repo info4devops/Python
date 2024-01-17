@@ -18,7 +18,7 @@ while i>=-n:
 # Accessing Elements using for loop
 print('Accessing Using For Loop')
 #forward direction
-print('Forward Direction')
+print('\nForward Direction')
 for x in s[::1]:
   print(x,end=" ")
 
