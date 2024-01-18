@@ -1,11 +1,8 @@
-s= input('s:')
-l=[]
-for x in s:
-  if x not in l:
-    l.append(x)
-print(l)
-output = ''.join(sorted(l))
-#result=''.join(sorted(output))
-print(output)
-
-
+s=[x for x in range(1,11)]
+v=[x*x for x in range(1,11)]
+print(s)
+print(v)
+m=[x for x in v if x%2==0]
+print(m)
+dif_ele = [x for x in v if x not in m]
+print(dif_ele)
