@@ -10,9 +10,7 @@ print(f'\ntyepe of t2:{type(t2)}')
 t = eval(input('Enter any tuple:')) #ex: t=(10,20,30)
 length=len(t)
 sum=0
-average = (sum/length)
 for x in t:
   sum = sum+x
 print(f'The sum:{sum}')
-print(f'The Average:{(sum/length)}')
-print(len(t))
+print(f'The Average:{(sum/length)}') # average = (sum/length)
