@@ -1,3 +1,5 @@
+# implementation of supermarket using dictionaries
+
 super_market = { 'store-1': { 
                              'name': 'KRISHNA GENERAL STORE',
                              'items': [
