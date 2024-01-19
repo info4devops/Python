@@ -1,11 +1,12 @@
-def wish(name,msg):
-  print('Hello',name,msg)
+# Function to find factorial of a number
+def fact(n):
+  result=1
+  while n>=1:
+    result=result*n
+    n=n-1
+  print(result)
+
+n=int(input('Enter number to find factorial:'))
+fact(n)
+
   
-wish('Python','Good Morning') # Positional arguments
-wish(name='Java',msg='How Are You') # Keyword arguments
-wish(msg='How Are You',name='C++') # Keyword arguments
-
-# wish(msg='How Are You','C++') # Error: Positional argument followed by Keyword arguments
-
-wish('HTML',msg='How Are You')
- 
