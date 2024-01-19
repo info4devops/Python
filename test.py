@@ -1,21 +1,10 @@
-s='Python'
-l=len(s)
-evens=[]
-odds=[]
-i=0
-while i<l:
-  if i%2==0:
-    evens.append(s[i])
-  else:
-    odds.append(s[i])
-  i=i+1
-print()
-output1='+'.join(evens)  
-output2='-'.join(odds)
-print(output1)  
-print(output2)  
+s={1, 2, 3, 4, 11, 12, 333, 111, (77, 88, 99), 222}
 
-
-
+print(s.pop())
+print(s.pop())
+print(s.pop())
+print(s.pop())
+print(s.pop())
+print(s.pop())
 
 
