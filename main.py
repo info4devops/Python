@@ -1,7 +1,3 @@
-def f1():
-  print('hello')
-
-print(f1)
-print(id(f1))
-
-
+from Vmath import*
+print(Vmath.x)
+Vmath.sum(111,222)
