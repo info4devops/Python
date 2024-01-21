@@ -12,6 +12,9 @@ print(V.x)
 V.add(100,200)
 V.product(11,12)
 
+# Importing module types
+#1. from Vmath import* 
+#2. from Vmath import <a specific function/variable>
+#3. import Vmath
+#4. import Vmath as V
 
-from Vmath import*
-Vmath.product(11,111)
