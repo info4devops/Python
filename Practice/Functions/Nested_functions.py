@@ -19,4 +19,9 @@ def outer():
   print('Outer function calling inner function')
   return inner
 f1=outer()
-f1()
+f1() # Inner function started
+
+# Difference between
+#f1=outer : means function aliasing
+# f1=outer() means--> calling outer function,which return inner function for the we are providing another name
+
