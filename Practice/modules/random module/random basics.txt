@@ -1,0 +1,10 @@
+Python Random module"
+1. It is Built in module of Python which is used to generate random numbers
+2. These are Pseudo-random numbers means these are not truly random.
+3. This module can be used to perform random actions such as generating random numbers,print random a value for a list or string etc.
+
+Applications of random module:
+1. Creating pseudo-random numbers on lottery scratch cards
+2. reCAPTCH on login forms uses a random number generator to define different numbers and images
+3. Picking a number, flipping a coin. throwing of dice related games required randome numbers
+4. Shuffling deck of playing cards.
