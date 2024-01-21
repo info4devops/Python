@@ -1,10 +1,8 @@
-def f1(arg1,arg2,arg3=4,arg4=8):
-  print(arg1,arg2,arg3,arg4)
+a=10 # global
+def f1():
+  a=777 # local
+  print(f'f1_local:{2}')
+  print(f'Global from f1 is:{globals()["a"]}')
 
-#f1() #TypeError: f1() missing 2 required positional arguments: 'arg1' and 'arg2'
-f1(10,20)
-f1(10,20,30,40)
-#f1(10,20,arg3=30,40) # SyntaxError: positional argument follows keyword argument
-f1(10,20,300,arg4=400)
-
-
+f1()
+print(a)
