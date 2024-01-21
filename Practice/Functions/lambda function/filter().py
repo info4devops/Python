@@ -1,4 +1,5 @@
 # WAP to filter even number in given sequence
+# filter() with lambda function
 # Without lambda function
 print(':::::::Without lambda function:::::::::::')
 def is_even(x):
