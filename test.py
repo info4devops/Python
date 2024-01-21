@@ -1,10 +1,12 @@
-s={1, 2, 3, 4, 11, 12, 333, 111, (77, 88, 99), 222}
-
-print(s.pop())
-print(s.pop())
-print(s.pop())
-print(s.pop())
-print(s.pop())
-print(s.pop())
+from random import*
+start = int(input('Enter start value: '))
+stop = int(input('Enter stop value: '))
+if start>stop:
+  small = stop
+  large = start
+else:
+  small = start
+  large = stop
+print(large,small)
 
 

@@ -8,3 +8,8 @@ Applications of random module:
 2. reCAPTCH on login forms uses a random number generator to define different numbers and images
 3. Picking a number, flipping a coin. throwing of dice related games required randome numbers
 4. Shuffling deck of playing cards.
+
+Functions
+random() ==> Generate random float number b/w 0-1(not inclusive)
+randint(x,y) ==> Generate random int number b/w any range x and y (x,y inclusive)
+uniform(x,y) ==> Generate random int number b/w any range x and y (x,y not inclusive)
