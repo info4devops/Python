@@ -1,0 +1,11 @@
+1. Name:
+       Should be 3-10 characters and 1st letter should be upper case and remainig should be lower
+2. Number: Employee number should be start with e-followed by 4digits(ex:e-1234)
+3. Salary: Salary should be floating value b/w 10000 to 50000
+4. City: City should be from ['Hyd','Blr','Pune','Delhi','Mumbai']
+5. mobile number: 
+              Mobile number should contain exactly 10 digits. where 1st digit should b/w
+              6-9.No restriction on other digits [ex:9876543210]
+6. Disegnation: 
+             should be from ['software engineer','senior software engineer','Team Lead','Manager','Project Manager','project Lead']
+             
