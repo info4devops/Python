@@ -1,6 +1,9 @@
-print('--Version:1--')
-import Pack1.Module1
-Pack1.Module1.f1()
-Pack1.Module1.f2(10,20)
-
-
+num=int(input("Enter a number:"))
+temp=num # aliasing
+rev=0
+dig=num%10 # finding digit value
+rev=rev*10+dig
+num = num//10
+print(dig)
+print(rev*10)
+print(num//10)

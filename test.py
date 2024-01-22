@@ -1,9 +1,12 @@
-# Given an integer x, return true if x is a palindrome, and false otherwise.
-x=int(input('Enter x:'))
-if x<0:
-  print('false:Not a ')
+num=int(input("Enter a number:"))
+temp=num # aliasing
+rev=0
+while(num>0):
+    dig=num%10 # finding digit value
+    rev=rev*10+dig 
+    num=num//10
+if(temp==rev):
+    print("The number is palindrome!")
 else:
-  str(x)==str(x)[::-1]
-  print('true')
-  
-  
+    print("Not a palindrome!")
+
