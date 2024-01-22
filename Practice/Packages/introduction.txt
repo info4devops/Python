@@ -6,4 +6,19 @@ package:
  - It is an encapsulation mechanism to group related modules into single unit
  - any folder containe __init__.py file, it is considered as a python package.This file can be empty as well.
  - from python version >3.3 onwards, having __init__.py file in python package is not a mandatory its optional
+ - If we want to use a package, compulsory it should be available in the current working directory, if not we will get "ModuleNotFound Error"
+ - To over come this we have to install the package.
+
+How to install package:
+- Create a python file named with setup.py in the current working directory where the package is available with the following code
+
+setup.py
+# from setuptools import setup
+# setup(name='Name of the package',version='version',package='package name')
+
+- Go to working directory in CMD and execute 'pip install' to install package
+for uninstall package ==> pip uninstall <package name>
+
+- after this we will be able to execute the package from any directory
+
 
