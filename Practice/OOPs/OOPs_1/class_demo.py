@@ -2,7 +2,7 @@
 
 class student:
   '''Developed by vamsi for class-demo'''
-  def __init__(self):
+  def __init__(self): # Constructor
     self.name='Virat'
     self.rollnumber=18
     self.marks=90
@@ -12,7 +12,7 @@ class student:
     print('My Roll number is:',self.rollnumber)
     print('My Marks are:',self.marks)
 
-# Creating reference varibale for the class student
+# Creating reference varibale/object for the class student
 s=student()
 
 print('--------Version:1----------')
