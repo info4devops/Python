@@ -16,7 +16,7 @@ class student:
 s=student()
 
 print('--------Version:1----------')
-# Calling class objects by using reference variable of a class
+# Calling class method by using reference variable of a class
 print(s.name)
 print(s.rollnumber)
 print(s.marks)
