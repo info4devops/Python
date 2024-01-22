@@ -1,0 +1,9 @@
+Function: A collection of python lines into a single unit
+Module: A collection of python functions,variables and classes into a single unit
+package: A collection of related modules into a folder
+
+package:
+ - It is an encapsulation mechanism to group related modules into single unit
+ - any folder containe __init__.py file, it is considered as a python package.This file can be empty as well.
+ - from python version >3.3 onwards, having __init__.py file in python package is not a mandatory its optional
+
