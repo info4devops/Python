@@ -1,12 +1,8 @@
-num=int(input("Enter a number:"))
-temp=num # aliasing
-rev=0
-while(num>0):
-    dig=num%10 # finding digit value
-    rev=rev*10+dig 
-    num=num//10
-if(temp==rev):
-    print("The number is palindrome!")
-else:
-    print("Not a palindrome!")
-
+def is_leap(year):
+    leap= False
+    if year%4==0:
+        return leap
+    else:
+        leap=True
+n=2024
+is_leap(n)
