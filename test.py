@@ -1,14 +1,9 @@
-x = int(input('x='))
-y = int(input('y='))
-z = int(input('z='))
-n = int(input('n='))
+# Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given  scores. Store them in a list and find the score of the runner-up.
 
-result = [
-    [i, j, k]
-    for i in range(x + 1)
-    for j in range(y + 1)
-    for k in range(z + 1)
-    if i + j + k != n
-]
+#Input Format: The first line contains . The second line contains an array   of  integers each separated by a space.
 
-print(result)
+n = int(input())
+arr = map(int, input().split())
+sorted_scores = sorted(set(arr),reverse=True)
+runner_up_score = sorted_scores[1]
+print('The RUnner-Up Score:',runner_up_score)
