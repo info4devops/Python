@@ -9,4 +9,6 @@ class Test:
 
 t=Test() # Constructor
 t.m1(10) # m1 method
-t.m1() # TypeError: Test.m1() missing 1 required positional argument: 'x'
+#t.m1() # TypeError: Test.m1() missing 1 required positional argument: 'x'
+#t=Test(111) # TypeError: Test.__init__() takes 1 positional argument but 2 were given
+
