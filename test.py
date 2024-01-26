@@ -1,21 +1,4 @@
-class Test:
-    n=1212
-    def __init__(self):
-        self.a=10
-        self.b=20
-        self.a=999
-        Test.n=2121
+d={100:'python',200:'java',300:'html'}
+d[300]='java'
 
-    def m1(self):
-        Test.n=2121
-        print(self.a)
-        print(self.b)
-t=Test()
-t2=Test()
-t.m1()
-t.a = 111
-print(t.a)
-print(t2.a)
-print(Test.n)
-
-    
+print(d.items())
