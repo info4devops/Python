@@ -7,10 +7,10 @@ class Engine:
 
 class Car:
   def __init__(self):
-    self.Engine=Engine()
+    self.Engine=Engine() # passing Engine class as instance varible inside Car class
   def useCar(self):
     print('Car required Engine related functionalities')
-    self.Engine.useEngine()
+    self.Engine.useEngine() # Calling Engine functionalities using class name
     
 
 c=Car()
