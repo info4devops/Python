@@ -1,0 +1,31 @@
+Inheritance: It is allow us to define a class that inherits all the methods and properties from another class
+
+Parent Class: Is the class being inherited from,also  called base class
+Child Class: Is the class that inherits from another class,also called derived class
+
+Types of inheritances:
+
+1.Single: Single parent to single Child
+
+2.Multi-Lever: Multiple parent classes to single child class with the concept of one after another.
+
+3.Hierarchical: Single parent class to multiple child classes which are present at same level
+
+4.Multiple: Multiple Parent classes to Single child class at a time.
+ex: class c(p1,p2)
+
+Note: If Bothe parent classes containe a method with same name then python will always consider the order of parent classes in the declaration in the child class.
+
+class c(p1,p2) ==> P1 method will be considered by child class
+class c(p2,p1) ==> P2 method will be considered by child class
+
+5. Hybrid: The combination of single,mutil-level,Hierarchical and Multiple inheritances
+Method Resolution Order(MRO) is decided based on MRO algorithm.
+
+6.Cyclic: One class to another class in a cyclic way
+
+ex: class A(A):pass
+ex2: class A(B): pass
+     class B(A):pass
+
+
