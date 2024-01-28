@@ -14,3 +14,14 @@ Note:
 3. If our defined class is not a child of any other class then it is direct child class of Object class
 4. We can define MRO of any class by using mro() function
 ex: print(ClassName.mro())
+
+
+Head and Tail Terminology:
+Assume c1,c2,c3 .. are classes
+In the list: c1c2c3...
+C1=Head and remaining are Tail
+
+How to find Merge:
+1. Take the head of 1st list
+2. If Head is not in the tail part of any other list, then add this head to result and remove it from the lists in the Merge
+3. If the Head is present in tail part of any other list,then consider the head element of the next list and continue the same process
