@@ -1,0 +1,16 @@
+Method Resolution Order
+
+1. In hibrid Inheritance, Method resolution order will decided based on MRO algorithm
+2. This algorithm is also known as c3 algorithm
+3. samuele pedroni proposed this algorithm
+4. It follows "DLR(Depth first left to right)". i.e., Child will get more priority than parent class.
+5. Left parent will get more priority than right parent
+Example:
+MRO(X) = X+Merge(MRO(P1),MRO(P2),MRO(P3)..parent list). Here P1,P2,P3 etc are direct parent classes of X
+
+Note:
+1.Object is pythons inbuilt class
+2.Every Class in python is a child class of Object Class either directly or indirectly.
+3. If our defined class is not a child of any other class then it is direct child class of Object class
+4. We can define MRO of any class by using mro() function
+ex: print(ClassName.mro())
