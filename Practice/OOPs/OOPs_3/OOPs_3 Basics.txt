@@ -1,0 +1,12 @@
+# OOPs-3
+1. Duck Typing Philosophy of Python:
+   1. In Python we can not specify the type explicitly.Based on provided value at runtime the type will be considered automatically.Hence Python is considered as Dynamically Typed Language.
+   hasattr(Object,'attribute name')
+
+2. Over Loading: Using same Operator or Method for different purposes.
+
+  1. Operator Over Loading: We can use same operator for multiple purposes.
+  
+     
+     
+   
