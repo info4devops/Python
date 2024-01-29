@@ -1,13 +1,9 @@
 try:
-  x=int(input('x='))
-  y=int(input('y='))
-
-  print(x/y)
-  
-
-except ZeroDivisionError:
-  print('Zero Division Error')
+  print('stmt-1')
+  print('stmt-2')
+  print('stmt-3')
 except ValueError:
-  print('Value Error')
-  
-   
+  print(10/0)
+finally:
+  print('stmt-5')
+  print('stmt-6')
