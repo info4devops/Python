@@ -1,0 +1,5 @@
+f1=open('abc.jpg','rb')
+f2=open('newimage.jpg','wb')
+bytes1 = f1.read()
+f2.write(bytes1)
+print('Image is now available in newimage.jpg')
