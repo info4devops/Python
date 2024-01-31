@@ -1,6 +1,6 @@
-f=open('abc.txt')
-f.read()
-
+f=open('abcd.txt','r')
+data=f.read()
+print(data)
 
 
 
