@@ -1,3 +1,5 @@
+# Program to create zip files
+
 from zipfile import*
 f=ZipFile('files.zip','w',ZIP_DEFLATED)
 f.write('file1.txt')

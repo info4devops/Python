@@ -1,5 +1,10 @@
-n=int(input('n='))
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        print(n-j,end=' ')
-    print()
+from threading import*
+def display():
+    for i in range(1,4):
+        print('Child Class')
+
+t=Thread(target=display)
+t.start()
+for i in range(1,4):
+    print('Main Class')
+    
