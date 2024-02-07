@@ -7,7 +7,7 @@ def display():
         print('Child Class')
 
 t=Thread(target=display)
-t.start()
+t.join()
 for i in range(1,4):
     print('Main Class')
     
