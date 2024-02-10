@@ -2,7 +2,7 @@
 
 import re
 count =0
-matcher=re.finditer('ab','abaabaaababababa')
+matcher=re.finditer('x','a7b @K9z') # replace 'x' with any predefinded character classes i.e \s or \S etc
 for match in matcher:
-  print(match.start(),'....',match.end(),'....',match.group())
+  print(match.start(),'....',match.group())
 print('The Number of occurrences:',count)
