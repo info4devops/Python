@@ -1,14 +1,14 @@
 from threading import*
 import time
 def producer():
-  time.sleep(10)
+  time.sleep(5)
   print('P:Producing Items')
   print('P:Gave Notification')
   e.set()
 def consumer():
   print('C:Waiting for update')
-  print('C:Got Notification from P')
   e.wait()
+  print('C:Got Notification from P')
 
 e=Event()
 t1=Thread(target=producer)
