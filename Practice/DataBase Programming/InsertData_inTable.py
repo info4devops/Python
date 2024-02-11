@@ -1,7 +1,7 @@
 import cx_Oracle
 try:
-  con = cx_Oracle.connect('scott/tiger@localhost/orcl')
-  #con = cx_Oracle.connect('scott/TIGER@Vamsi_A:1522/xe')
+  #con = cx_Oracle.connect('scott/tiger@localhost/orcl')
+  con = cx_Oracle.connect('scott/TIGER@Vamsi_A:1522/xe')
   cursor=con.cursor()
   sql="Insert into student values(:Sno,:Sname,:Sfee)"
   records=[(101,'Paul',10000),
