@@ -3,13 +3,12 @@ try:
   con = cx_Oracle.connect('scott/tiger@localhost/orcl')
   #con = cx_Oracle.connect('scott/TIGER@Vamsi_A:1522/xe')
   cursor=con.cursor()
-  sql="Insert into student values(:Sno,:Sname,:Sfee)"
-  records=[(101,'Paul',10000),
-           (202,'John',20000)]
-  cursor.executemany(sql,records)
+  increment=int(input('Enter Fee Increment value by:'))
+  Fee_Range=int(input('Fee Range:'))
+  query=f'update student set Sfee=Sfee+{increment} where Sfee<{Fee_Range}'
+  cursor.execute(query)
   con.commit()
-  print('Records Inserted succesfully')
-
+  
 except cx_Oracle.DataError as e:
   if con:
     con.rollback()
