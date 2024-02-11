@@ -1,20 +1,23 @@
-import cx_Oracle
-try:
-  con = cx_Oracle.connect('scott/tiger@localhost/orcl')
-  #con = cx_Oracle.connect('scott/TIGER@Vamsi_A:1522/xe')
-  cursor=con.cursor()
-  increment=int(input('Enter Fee Increment value by:'))
-  Fee_Range=int(input('Fee Range:'))
-  query=f'update student set Sfee=Sfee+{increment} where Sfee<{Fee_Range}'
-  cursor.execute(query)
-  con.commit()
-  
-except cx_Oracle.DataError as e:
-  if con:
-    con.rollback()
-    print('There is a problem with sql:',e)
-finally:
-  if cursor:
-    cursor.close()
-  if con:
-    con.close()
+# connect to MYSQL Database
+
+print(':::::::Using-pymysql:::::::)')
+import pymysql
+
+# Establish a connection to the MySQL database
+con = pymysql.connect(host='localhost', database='vamsidb', user='root', password='root')
+    
+# Check if the connection is successful
+if con is not None:
+  print('Connected Successfully')
+print()  
+
+
+print(':::::::Using-mysql.connector:::::::)')
+import mysql.connector
+
+# Establish a connection to the MySQL database
+con = mysql.connector.connect(host='localhost', database='vamsidb', user='root', password='root')
+    
+# Check if the connection is successful
+if con is not None:
+  print('Connected Successfully')
