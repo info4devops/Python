@@ -1,23 +1,17 @@
-# connect to MYSQL Database
+#Program to perform pickling and unpickling of an employee object
 
-print(':::::::Using-pymysql:::::::)')
-import pymysql
+import pickle
+# Creating Employee Class
+class Employee:
+  def __init__(self,eno,ename,esal,eaddr):
+    self.eno=eno
+    self.ename=ename
+    self.esal=esal
+    self.eaddr=eaddr
 
-# Establish a connection to the MySQL database
-con = pymysql.connect(host='localhost', database='vamsidb', user='root', password='root')
-    
-# Check if the connection is successful
-if con is not None:
-  print('Connected Successfully')
-print()  
-
-
-print(':::::::Using-mysql.connector:::::::)')
-import mysql.connector
-
-# Establish a connection to the MySQL database
-con = mysql.connector.connect(host='localhost', database='vamsidb', user='root', password='root')
-    
-# Check if the connection is successful
-if con is not None:
-  print('Connected Successfully')
+# Creating display class to print employee details
+  def display(self):
+print('Employee Number:',self.eno)
+print('Employee Name:',self.ename)
+print('Employee Salary:',self.esal)
+print('Employee Address:',self.eaddr)
