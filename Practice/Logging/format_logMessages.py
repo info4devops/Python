@@ -2,7 +2,10 @@
 
 
 import logging
-logging.basicConfig()
+#logging.basicConfig(format='%(levelname)s') # Print only Level Name i.e WARNING ect
+
+logging.basicConfig(format='%(levelname)s:%(message)s') # Print both Level and message i.e WARNING:WARNING Information ect
+
 print('Logging Demo')
 logging.debug('DEBUG Information')
 logging.info('INFO Information')

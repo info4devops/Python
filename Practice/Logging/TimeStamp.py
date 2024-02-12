@@ -2,7 +2,13 @@
 
 
 import logging
-logging.basicConfig()
+
+#logging.basicConfig(format='%(asctime)s') #2024-02-12 16:59:25,185
+
+#logging.basicConfig(format='%(asctime)s:%(levelname)s') #2024-02-12 17:00:17,424:WARNING
+
+logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s') #2024-02-12 17:01:06,915:WARNING:WARNING Information
+
 print('Logging Demo')
 logging.debug('DEBUG Information')
 logging.info('INFO Information')

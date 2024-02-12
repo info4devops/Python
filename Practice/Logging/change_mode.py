@@ -2,7 +2,7 @@
 
 
 import logging
-logging.basicConfig()
+logging.basicConfig(filename='log.txt',level=logging.ERROR,filemode='w')
 print('Logging Demo')
 logging.debug('DEBUG Information')
 logging.info('INFO Information')
