@@ -1,12 +1,3 @@
-# Program to create log file and store either WARNING ar higher-level messages with explicitly mentioning file mode
-
-
 import logging
-logging.basicConfig()
-print('Logging Demo')
-logging.debug('DEBUG Information')
-logging.info('INFO Information')
-logging.warning('WARNING Information')
-logging.error('ERROR Information')
-logging.critical('CRITICAL Information')
-print()
+logging.basicConfig(filename='student.log',level=logging.INFO)
+logging.info('Info message from test module')

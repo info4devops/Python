@@ -1,0 +1,16 @@
+12/02/2024 17:29:49PM:INFO:A New Request Came
+12/02/2024 17:29:54PM:INFO:Request Processing Completed
+12/02/2024 17:29:58PM:INFO:A New Request Came
+12/02/2024 17:30:03PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "c:\Users\vamsi\OneDrive\Desktop\Python\Practice\Logging\PythonExceptions_to_Logfile.py", line 14, in <module>
+    result=x/y
+ZeroDivisionError: division by zero
+12/02/2024 17:30:03PM:INFO:Request Processing Completed
+12/02/2024 17:30:07PM:INFO:A New Request Came
+12/02/2024 17:30:13PM:ERROR:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "c:\Users\vamsi\OneDrive\Desktop\Python\Practice\Logging\PythonExceptions_to_Logfile.py", line 12, in <module>
+    x=int(input('x='))
+ValueError: invalid literal for int() with base 10: 'ten'
+12/02/2024 17:30:13PM:INFO:Request Processing Completed
