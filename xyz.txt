@@ -1,0 +1,4 @@
+02-13-2024 11:51:19PM-demoLogger-ERROR:error message
+02-13-2024 11:51:19PM-demoLogger-CRITICAL:critical message
+02-13-2024 11:52:46PM-LoggerDemoFile-ERROR:error message
+02-13-2024 11:52:46PM-LoggerDemoFile-CRITICAL:critical message
