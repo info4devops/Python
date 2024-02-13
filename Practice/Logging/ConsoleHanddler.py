@@ -1,3 +1,5 @@
+# Program for console Handler
+
 import logging
 class LoggerDemoConsole:
   

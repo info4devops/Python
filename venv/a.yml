@@ -1,0 +1,12 @@
+---
+- name: download tar file 
+  get_url:
+    url: https://archive.apache.org/dist/tomcat/tomcat-10/v10.0.20/bin/apache-tomcat-10.0.20.tar.gz 
+    dest: /home/azureuser/apache-tomcat-10.0.20.tar.gz
+    force_basic_auth: yes
+
+
+- name: exctract tar file 
+  command:
+    cmd: sudo tar xzvf /home/azureuser/apache-tomcat-10.0.20.tar.gz -C /opt/tomcat --strip-components=1
+    creates: /opt/tomcat/LICENSE
