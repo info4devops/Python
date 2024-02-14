@@ -19,10 +19,9 @@ qualname=demoLogger
 [handler_fileHandler]
 class=FileHandler
 level=DEBUG
-formatter=simpleFormatter
-filename=example.log
-mode=w
+formatters=simpleFormatter
+args=('vamsi.log', 'w')
 
 [formatter_simpleFormatter]
 format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
-datefmt=%Y-%m-%d %H:%M:%S %p
+datefmt=%m/%d/%Y %I:%M:%S %p
