@@ -38,3 +38,5 @@ print('Custome Logger Demo')
 l.m1()
 l.m2()
 l.m3()
+
+# Output will be appended in abc.log file
